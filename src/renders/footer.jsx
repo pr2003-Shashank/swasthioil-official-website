@@ -33,7 +33,7 @@ function Footer() {
               ></Divider>
               <div className='top_inner'>
                 <div className='title_container'>
-                  <img src={footer_icon} alt='icon' className='footer_icon' onClick={handleRefreshToHomePage}/>
+                  {/* <img src={footer_icon} alt='icon' className='footer_icon' onClick={handleRefreshToHomePage}/> */}
 				          <Typography className='footer_title' onClick={handleRefreshToHomePage}>Swasthi Coconut Oil</Typography>
                 </div>
                 <Stack className='social_stack' direction="row" alignItems="center">

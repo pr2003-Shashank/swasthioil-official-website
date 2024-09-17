@@ -186,7 +186,7 @@ function Header() {
 	<div className='header_container'>
 		<Box>
 			<div className='title_container'>
-				<img src={header_icon} alt='icon' className='header_icon' onClick={handleRefreshToHomePage}/>
+				{/* <img src={header_icon} alt='icon' className='header_icon' onClick={handleRefreshToHomePage}/> */}
 				<Typography className='header_title' onClick={handleRefreshToHomePage}>Swasthi Coconut Oil</Typography>
 			</div>
 			<Navbar/>
