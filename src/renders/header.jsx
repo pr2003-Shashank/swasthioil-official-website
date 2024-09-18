@@ -10,7 +10,7 @@ import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { Typography } from '@mui/material';
-import header_icon from '../assets/images/Swasthioil-logo.jpeg';
+import header_icon from '../assets/images/Swasthioil-logo.png';
 import {useNavigate, useLocation} from 'react-router-dom';
 import { NavToggleIcon, LogArrowIcon } from './icon';
 
