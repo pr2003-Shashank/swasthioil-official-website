@@ -33,7 +33,7 @@ function Footer() {
               ></Divider>
               <div className='top_inner'>
                 <div className='title_container'>
-                  {/* <img src={footer_icon} alt='icon' className='footer_icon' onClick={handleRefreshToHomePage}/> */}
+                  <img src={footer_icon} alt='icon' className='footer_icon' onClick={handleRefreshToHomePage}/>
 				          <Typography className='footer_title' onClick={handleRefreshToHomePage}>Swasthi Coconut Oil</Typography>
                 </div>
                 <Stack className='social_stack' direction="row" alignItems="center">
@@ -46,12 +46,12 @@ function Footer() {
                   <Link href="https://www.facebook.com/" target='_blank'>
                     <FacebookIcon sx={{ color: "#FFFFFF" }} fontSize="medium" />
                   </Link>
-                  <Link href='https://twitter.com/' target='_blank'>
+                  {/* <Link href='https://twitter.com/' target='_blank'>
                     <TwitterIcon fontSize="medium" sx={{ color: "#FFFFFF" }} />
-                  </Link>
-                  {/* <Link href='https://in.linkedin.com/' target='_blank'>
-                    <LinkedInIcon fontSize="medium" sx={{ color: "#FFFFFF" }} />
                   </Link> */}
+                  <Link href='https://in.linkedin.com/' target='_blank'>
+                    <LinkedInIcon fontSize="medium" sx={{ color: "#FFFFFF" }} />
+                  </Link>
                   
                 </Stack>
               </div>
@@ -88,7 +88,7 @@ function Footer() {
                   <ListItemText className={location.pathname === '/#' ? 'active' : ''} primary="Phone: +91 9483927749" />
                 </ListItem>
                 <ListItem >
-                  <ListItemText className={location.pathname === '/#' ? 'active' : ''} primary="E-mail: swasthioil@gmail.com" />
+                  <ListItemText className={location.pathname === '/#' ? 'active' : ''} primary="E-mail: info.swasthioil@gmail.com" />
                 </ListItem>               
               </List>
             </div>
@@ -111,7 +111,7 @@ function Footer() {
             </div>
           </div>
           <div className='copyright_container'>
-            <Typography className='copy_text'>Copyright © 2023 Swasthi Coconut Oil. All Rights Reserved</Typography>
+            {/* <Typography className='copy_text'>Copyright © 2023 Swasthi Coconut Oil. All Rights Reserved</Typography> */}
             {/* <List component="nav" aria-label="main mailbox folders">
                 <ListItem onClick={(e) => navigate('/privacy')}>
                   <ListItemText className={location.pathname === '/privacy' ? 'active' : ''} primary="Privacy" />
